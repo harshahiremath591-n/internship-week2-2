@@ -1,0 +1,12 @@
+# dictionary of student details
+student={
+    "name":"Harsha",
+    "USN":"U02AS23S0392",
+    "Branch":"BSc"  
+}
+#print the name of the student
+print("Name of the student:",student["name"])
+#print the USN of the student
+print("USN of the student:",student["USN"])
+#print the branch of the student
+print("Branch of the student:",student["Branch"])

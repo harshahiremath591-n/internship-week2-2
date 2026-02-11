@@ -1,0 +1,19 @@
+#dictionary of student
+student={
+    "name":"Harsha",
+    "USN":"U02AS23S0392",
+    "Branch":"BSc"
+}
+#ADD ELEMENTS TO THE DICTIONARY
+student["age"]=21
+student["gender"]="Male"
+print("student details:")
+#UPDATE THE DICTIONARY
+student["age"]=20
+for key,value in student.items():
+    print(key,":",value)
+    #DELETE ELEMENTS FROM THE DICTIONARY
+del student["gender"]
+print("updated student details:")
+
+

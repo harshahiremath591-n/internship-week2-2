@@ -1,0 +1,12 @@
+#count word frequency
+text=input("enter a sentence")
+words=text.split()
+frequency={}
+for word in words:
+    if word in frequency:
+        frequency[word]+=1
+    else:
+        frequency[word]=1
+print("word frequency:",frequency)
+for key,value in frequency.items():
+    print(key,":",value)
